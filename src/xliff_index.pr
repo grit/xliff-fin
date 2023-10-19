@@ -1,0 +1,3 @@
+{[ let pages = ds.allDocumentationPages() /]}
+{[ let groups = ds.allDocumentationGroups() /]}
+{{ buildXLiffOutput(pages, groups) }}

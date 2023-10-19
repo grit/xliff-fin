@@ -1,0 +1,26 @@
+{
+    "id": "io.supernova.xliff",
+    "name": "XLiff exporter",
+    "description": "Export all documentation texts into XLiff format for localization purposes",
+    "author": "Supernova",
+    "organization": "Supernova",
+    "source_dir": "src",
+    "assets_dir": "assets",
+    "version": "1.0.0",
+    "usesBrands": false,
+    "config": {
+        "sources": "sources.json",
+        "output": "output.json",
+        "js": "src/js_helpers.js"
+    },
+    "engines": {
+        "pulsar": "1.0.0",
+        "supernova": "1.0.0"
+    },
+    "type": "code",
+    "tags": [
+        "Documentation",
+        "Localization",
+        "XLiff"
+    ]
+}

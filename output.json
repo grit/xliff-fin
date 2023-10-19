@@ -1,0 +1,7 @@
+{
+    "blueprints": [{
+        "invoke": "xliff_index.pr",
+        "write_to": "strings.xliff",
+        "comment": "Create XLiff representation of the documentation content"
+    }]
+}
